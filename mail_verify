@@ -1,0 +1,28 @@
+#!/usr/bin/env python
+
+import os,random,string,time
+import imaplib,re, webbrowser
+
+def mail_verify():
+	mail = imaplib.IMAP4_SSL('imap.gmail.com')
+    	mail.login('<FAKE-MAIL-ADDR>','<FAKE-MAIL-PASS>')
+    	mbox = mail.list()
+	rv, data = mail.select("INBOX")
+    	if rv== "OK":
+       		print 'Processing mailbox...\n'
+
+    	for num in data[0].split():
+        	rv, data = mail.fetch(num, '(RFC822)')
+            	match = re.search(r'(https://cloud.digitalocean.com/account_verification/email/.*)\\r\\n\\r\\n',str(data))
+            	act_url =  match.group()
+            	act_url = act_url[:-8]
+            	#activation curl py
+            	webbrowser.open(act_url,new=0, autoraise=True)
+            	print act_url
+		print 'Activation OK'
+		#set promo code
+            	#DROPLET10
+            	mail.close()
+    	mail.logout()
+
+mail_verify()
