@@ -1,0 +1,5 @@
+#!/usr/bin/sh
+
+sudo /usr/bin/python gui_login
+#/bin/sleep 5
+#sudo /usr/bin/python mail_verify
