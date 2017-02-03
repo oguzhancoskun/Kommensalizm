@@ -1,7 +1,7 @@
-# mutualizm
+# Kommensalizm
 ##Digitalocan ölücü projesi
 
-Digitalocean'dan bedava faydalanmanın yolları, mutualist bir ilişki.
+Digitalocean'dan bedava faydalanmanın yolları, Kommensalist bir ilişki.
 
 Beni bu yola sürükleyen;
 - Digitaloceanın her yeni üyelikte verdiği $10 dolar,
@@ -24,4 +24,4 @@ Beni bu yola sürükleyen;
 - yeni hesaptan bu droplet onaylanıp (do api aracılığıyla) droplet başlatılacak.
 - Aynı işlemler NS için de yapılandırılacak.
 
-Bu script çalıştıkça digitalocean ile aranızda mutualist bir ilişki kurulmuş olacak.
+Bu script çalıştıkça digitalocean ile aranızda Kommensalist bir ilişki kurulmuş olacak.
