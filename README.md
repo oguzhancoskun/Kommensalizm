@@ -1,7 +1,6 @@
 # Doing Doing
-##Digitalocan ölücü projesi
 
-Digitalocean'dan bedava faydalanmanın yolları, Kommensalist bir ilişki.
+Digitalocean'dan ucretsiz faydalanmanın yolları
 
 Beni bu yola sürükleyen;
 - Digitaloceanın her yeni üyelikte verdiği $10 dolar,
@@ -23,5 +22,3 @@ Beni bu yola sürükleyen;
 - İkinci adımda eski hesaptaki dropletin snapshotı alınacak ve yeni hesapla paylaşılacak,
 - yeni hesaptan bu droplet onaylanıp (do api aracılığıyla) droplet başlatılacak.
 - Aynı işlemler NS için de yapılandırılacak.
-
-Bu script çalıştıkça digitalocean ile aranızda Kommensalist bir ilişki kurulmuş olacak.
